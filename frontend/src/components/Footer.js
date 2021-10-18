@@ -5,9 +5,11 @@ const Footer = () => {
   return (
     <footer style={{ backgroundColor: 'black' }}>
       <Container>
-        <Row>
-          <Col style={{ color: '#fff' }} className='text-center py-3'>Copyright &copy; Pakretails</Col>
-        </Row>
+        <div className="wrapper">
+          <div className="content">
+            <p className='text-center py-3' >Copyright &copy; Pakretails</p>
+          </div>
+        </div>
       </Container>
     </footer>
   )
