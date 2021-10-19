@@ -5,7 +5,9 @@ import Rating from './Rating'
 
 const Product = ({ product }) => {
   return (
-    <Card className='my-3 p-3 rounded'>
+    // put this style in the card class name for change backgorund color
+    // style={{ backgroundColor: '#314457' }}
+    <Card className='my-3 p-3 rounded shadow p-3 mb-5 bg-body rounded' >
       <Link to={`/product/${product._id}`}>
         <Card.Img src={product.image} variant='top' />
       </Link>

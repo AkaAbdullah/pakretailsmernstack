@@ -4,16 +4,19 @@ main {
 
 h3 {
   padding: 1rem 0;
+  /* color: #fff; */
 }
 
 h1 {
   font-size: 1.8rem;
   padding: 1rem 0;
+  /* color: #fff; */
 }
 
 h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
+  /* color: #fff; */
 }
 
 .rating span {
@@ -73,3 +76,18 @@ h2 {
   color: #FFFFFF;
   padding: 20px;
 }
+/* body {
+  background: rgb(170,115,209);
+  background: radial-gradient(circle, rgba(170,115,209,1) 0%, rgba(3,50,93,1) 100%);
+}
+
+td{
+  color: #fff;
+}
+th{
+  color: #fff;
+}
+
+strong{
+  color: #fff;
+} */
